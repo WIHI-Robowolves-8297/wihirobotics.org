@@ -1,5 +1,5 @@
 <script>
-import RoboIcon from './icons/RoboIcon.vue';
+import RoboIcon from '@/components/icons/RoboIcon.vue';
 
 export default {
   name: "HeaderComponent",
@@ -53,23 +53,23 @@ export default {
       <RoboIcon />
     </div>
     <nav class="nav-links">
-      <router-link to="/">Home</router-link>
+      <router-link to="/robo-site-testing/">Home</router-link>
       <div class="dropdown" @click="toggleAbout">
         <router-link to="">About</router-link>
         <div v-show="isAboutOpen" class="dropdown-content" @mouseleave="isAboutOpen = false">
-          <router-link to="/team">Team</router-link>
-          <router-link to="/robot">Robot</router-link>
-          <router-link to="/gallery">Gallery</router-link>
-          <router-link to="/values">Values</router-link>
-          <router-link to="/competition">Competition</router-link>
-          <router-link to="/mission">Mission</router-link>
+          <router-link to="/robo-site-testing/team">Team</router-link>
+          <router-link to="/robo-site-testing/robot">Robot</router-link>
+          <router-link to="/robo-site-testing/gallery">Gallery</router-link>
+          <router-link to="/robo-site-testing/values">Values</router-link>
+          <router-link to="/robo-site-testing/competition">Competition</router-link>
+          <router-link to="/robo-site-testing/mission">Mission</router-link>
         </div>
       </div>
       <div class="dropdown" @click="toggleSponsorship">
         <router-link to="">Sponsorship</router-link>
         <div v-show="isSponsorshipOpen" class="dropdown-content" @mouseleave="isSponsorshipOpen = false">
-          <router-link to="/sponsors">Sponsors</router-link>
-          <router-link to="/sponsorship">Sponsor Us</router-link>
+          <router-link to="/robo-site-testing/sponsors">Sponsors</router-link>
+          <router-link to="/robo-site-testing/sponsorship">Sponsor Us</router-link>
         </div>
       </div>
     </nav>

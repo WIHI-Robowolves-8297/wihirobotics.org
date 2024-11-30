@@ -10,15 +10,15 @@ import SponsorsView from '../views/SponsorsView.vue';
 import SponsorshipView from '../views/SponsorshipView.vue';
 
 const routes = [
-  { path: '/', component: HomeView },
-  { path: '/team', component: TeamView },
-  { path: '/robot', component: RobotView },
-  { path: '/gallery', component: GalleryView },
-  { path: '/values', component: ValuesView },
-  { path: '/competition', component: CompetitionView },
-  { path: '/mission', component: MissionView },
-  { path: '/sponsors', component: SponsorsView },
-  { path: '/sponsorship', component: SponsorshipView }
+  { path: '/robo-site-testing/', component: HomeView },
+  { path: '/robo-site-testing/team', component: TeamView },
+  { path: '/robo-site-testing/robot', component: RobotView },
+  { path: '/robo-site-testing/gallery', component: GalleryView },
+  { path: '/robo-site-testing/values', component: ValuesView },
+  { path: '/robo-site-testing/competition', component: CompetitionView },
+  { path: '/robo-site-testing/mission', component: MissionView },
+  { path: '/robo-site-testing/sponsors', component: SponsorsView },
+  { path: '/robo-site-testing/sponsorship', component: SponsorshipView }
 ]
 
 const router = createRouter({

@@ -53,7 +53,7 @@ export default {
 .sponsor h2 {
   font-size: 24px;
   font-weight: 400;
-  padding-right: 15px;
+  text-align: center;
 }
 
 .sponsor img {
@@ -76,7 +76,6 @@ br {
   font-size: 18px;
   font-weight: 300;
   color: #ADB5BD;
-  padding-left: 15px;
 }
 
 .sponsor a {
