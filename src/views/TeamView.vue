@@ -9,20 +9,20 @@ import JumbotronComponent from '@/components/JumbotronComponent.vue';
     <JumbotronComponent Title="Our Team" Description="The Students and Mentors that make up the Robotics Team." />
 
     <div class="team">
-      <MemberComponent Name="Carrie Dadey" Role="Coach" Image="/robo-site-testing/images/user-solid.svg" Description=""
+      <MemberComponent Name="Carrie Dadey" Role="Coach" Image="/src/assets/images/user-solid.svg" Description=""
         class="scale-60" />
-      <MemberComponent Name="Tristan Chapman" Role="Team Capitan"
-        Image="/robo-site-testing/images/people/tristan-chapman.jpg" Description="" class="scale-60" />
-      <MemberComponent Name="Dilansh Tiwari" Role="E-Board" Image="/robo-site-testing/images/people/dilansh-tiwari.jpg"
+      <MemberComponent Name="Tristan Chapman" Role="Team Capitan" Image="/src/assets/images/people/tristan-chapman.jpg"
+        Description="" class="scale-60" />
+      <MemberComponent Name="Dilansh Tiwari" Role="E-Board" Image="/src/assets/images/people/dilansh-tiwari.jpg"
         Description="Dilansh is one of the many significant assets of the WIHI RoboWolves. He is dedicated to seeing his team's success and is a build team member. He also takes part in other extracurriculars like cricket and Student Government."
         class="scale-60" />
-      <MemberComponent Name="Haashir Ahmed" Role="E-Board" Image="/robo-site-testing/images/people/haashir-ahmed.jpg"
+      <MemberComponent Name="Haashir Ahmed" Role="E-Board" Image="/src/assets/images/people/haashir-ahmed.jpg"
         Description="Haashir is a diligent hard-worker, dedicated to inspiring his fellow members to success. With experience in programming and robotics competitions, Haashir uses his knowledge and leadership to guide the team to victory."
         class="scale-60" />
-      <MemberComponent Name="Alexa Jacob" Role="E-Board" Image="/robo-site-testing/images/people/alexa-jacob.jpg"
+      <MemberComponent Name="Alexa Jacob" Role="E-Board" Image="/src/assets/images/people/alexa-jacob.jpg"
         Description="My name's Alexa Jacob and a sophomore in high school. I'm interested in robotics cause I like to discover and understand new technology! I work on the business side of our team off season and mechanical building in season."
         class="scale-60" />
-      <MemberComponent Name="Aydin Akhoon" Role="E-Board" Image="/robo-site-testing/images/people/aydin-akhoon.jpg"
+      <MemberComponent Name="Aydin Akhoon" Role="E-Board" Image="/src/assets/images/people/aydin-akhoon.jpg"
         Description="⁤Aydin is a proactive and dedicated individual who strives for excellence in every endeavor. ⁤⁤As a key member of the WIHI Robowolves leadership team, his passion for science fuels his commitment to applying research, engineering, and teamwork skills, driving success for him and his team."
         class="scale-60" />
     </div>
