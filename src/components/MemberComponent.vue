@@ -15,7 +15,7 @@ export default {
 
 <template>
   <div class="member">
-    <img v-if="PlaceholderImage" src="/src/assets/images/user-solid.svg" alt="Member Image" />
+    <img v-if="PlaceholderImage" src="/robo-site-testing/images/user-solid.svg" alt="Member Image" />
     <img v-else :src="Image" alt="Member Image" />
     <div class="text">
       <h2>{{ Name }} - {{ Role }}</h2>
