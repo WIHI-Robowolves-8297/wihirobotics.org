@@ -11,7 +11,7 @@ import SponsorComponent from '@/components/SponsorComponent.vue';
 
     <div class="home">
       <h1>FRC 2024 - 2025 Competition</h1>
-      <img src="/robo-site-testing/images/reefscape-logo.png" alt="">
+      <img src="/src/assets/images/reefscape-logo.png" alt="">
 
       <h1>Featured Sponsors</h1>
       <p>Want your business name, logo & link here?</p>
