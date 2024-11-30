@@ -53,23 +53,23 @@ export default {
       <RoboIcon />
     </div>
     <nav class="nav-links">
-      <router-link to="/wihirobotics.org/">Home</router-link>
+      <router-link to="/">Home</router-link>
       <div class="dropdown" @click="toggleAbout">
         <router-link to="">About</router-link>
         <div v-show="isAboutOpen" class="dropdown-content" @mouseleave="isAboutOpen = false">
-          <router-link to="/wihirobotics.org/team">Team</router-link>
-          <router-link to="/wihirobotics.org/robot">Robot</router-link>
-          <router-link to="/wihirobotics.org/gallery">Gallery</router-link>
-          <router-link to="/wihirobotics.org/values">Values</router-link>
-          <router-link to="/wihirobotics.org/competition">Competition</router-link>
-          <router-link to="/wihirobotics.org/mission">Mission</router-link>
+          <router-link to="/team">Team</router-link>
+          <router-link to="/robot">Robot</router-link>
+          <router-link to="/gallery">Gallery</router-link>
+          <router-link to="/values">Values</router-link>
+          <router-link to="/competition">Competition</router-link>
+          <router-link to="/mission">Mission</router-link>
         </div>
       </div>
       <div class="dropdown" @click="toggleSponsorship">
         <router-link to="">Sponsorship</router-link>
         <div v-show="isSponsorshipOpen" class="dropdown-content" @mouseleave="isSponsorshipOpen = false">
-          <router-link to="/wihirobotics.org/sponsors">Sponsors</router-link>
-          <router-link to="/wihirobotics.org/sponsorship">Sponsor Us</router-link>
+          <router-link to="/sponsors">Sponsors</router-link>
+          <router-link to="/sponsorship">Sponsor Us</router-link>
         </div>
       </div>
     </nav>

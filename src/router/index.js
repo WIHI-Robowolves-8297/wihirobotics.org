@@ -10,15 +10,15 @@ import SponsorsView from '../views/SponsorsView.vue';
 import SponsorshipView from '../views/SponsorshipView.vue';
 
 const routes = [
-  { path: '/wihirobotics.org/', component: HomeView },
-  { path: '/wihirobotics.org/team', component: TeamView },
-  { path: '/wihirobotics.org/robot', component: RobotView },
-  { path: '/wihirobotics.org/gallery', component: GalleryView },
-  { path: '/wihirobotics.org/values', component: ValuesView },
-  { path: '/wihirobotics.org/competition', component: CompetitionView },
-  { path: '/wihirobotics.org/mission', component: MissionView },
-  { path: '/wihirobotics.org/sponsors', component: SponsorsView },
-  { path: '/wihirobotics.org/sponsorship', component: SponsorshipView }
+  { path: '/', component: HomeView },
+  { path: '/team', component: TeamView },
+  { path: '/robot', component: RobotView },
+  { path: '/gallery', component: GalleryView },
+  { path: '/values', component: ValuesView },
+  { path: '/competition', component: CompetitionView },
+  { path: '/mission', component: MissionView },
+  { path: '/sponsors', component: SponsorsView },
+  { path: '/sponsorship', component: SponsorshipView }
 ]
 
 const router = createRouter({

@@ -2,7 +2,7 @@
 import { ref, computed } from 'vue';
 import JumbotronComponent from '@/components/JumbotronComponent.vue';
 
-const folderPath = '/wihirobotics.org/images/gallery/';
+const folderPath = '/images/gallery/';
 const totalImages = 113;
 const imagesPerPage = 15;
 

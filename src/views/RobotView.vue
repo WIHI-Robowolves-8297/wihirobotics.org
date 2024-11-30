@@ -7,7 +7,7 @@ import TableComponent from '@/components/TableComponent.vue';
   <div id="app">
     <JumbotronComponent Title="The Robot"
       Description="Our robot was designed for the FIRST Robotics Competition (FRC). This page lists its components, functions, and design methodologies."
-      HasButton Button="See The Robot" Link="/wihirobotics.org/gallery" />
+      HasButton Button="See The Robot" Link="/gallery" />
 
     <div class="robot">
       <h2>Making The Robot</h2>

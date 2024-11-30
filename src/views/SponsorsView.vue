@@ -25,27 +25,24 @@ import SponsorComponent from '@/components/SponsorComponent.vue';
       <h2>Silver Tier ($500 - $999)</h2>
       <hr>
       <div class="tier">
-        <SponsorComponent Image="/wihirobotics.org/images/sponsors/dtm.png" SponsorName="DTM Remodeling LLC"
-          OwnerName="Ron Towler" HasOwnerName="true" HasPhoneNumber="true" PhoneNumber="(734) 323-9460" />
-        <SponsorComponent Image="/wihirobotics.org/images/sponsors/gator-pkg.png" SponsorName="Gator Packaging Inc."
-          HasAddress HasPhoneNumber HasEmail HasWebsite Address="2800 Zeeb Rd, Dexter, MI" PhoneNumber="(734) 323-9460"
+        <SponsorComponent Image="/images/sponsors/dtm.png" SponsorName="DTM Remodeling LLC" OwnerName="Ron Towler"
+          HasOwnerName="true" HasPhoneNumber="true" PhoneNumber="(734) 323-9460" />
+        <SponsorComponent Image="/images/sponsors/gator-pkg.png" SponsorName="Gator Packaging Inc." HasAddress
+          HasPhoneNumber HasEmail HasWebsite Address="2800 Zeeb Rd, Dexter, MI" PhoneNumber="(734) 323-9460"
           Email="gatorpkg@att.net" Website="https://gatorpkg.wixsite.com/gatorpackaging" class="scale-70" />
       </div>
       <br>
       <h2>Bronze Tier ($100 - $499)</h2>
       <hr>
       <div class="tier">
-        <SponsorComponent Image="/wihirobotics.org/images/sponsors/proto-connect.png" SponsorName="ProtoConnect LLC"
-          HasAddress HasPhoneNumber HasEmail HasWebsite Address="220 N Fifth Ave, Ann Arbor, MI"
-          PhoneNumber="(734)-619-0737" Email="bcasey@protoconnect.com" Website="http://protoconnect.com/"
-          class="scale-90" />
-        <SponsorComponent Image="/wihirobotics.org/images/sponsors/kirshner-chiro.png"
-          SponsorName="Kirshner Chiropractic" HasAddress HasPhoneNumber HasEmail HasWebsite
-          Address="1412 Ecorse Rd, Ypsilanti, MI" PhoneNumber="(734)-482-7700" Email="kirshnerchiropractic@gmail.com"
-          Website="https://www.kirshnerchiropractic.com/" class="scale-90" />
-        <SponsorComponent Image="/wihirobotics.org/images/sponsors/miexpress.png" SponsorName="MI Express" HasAddress
-          HasWebsite Address="44237 Michigan Ave, Canton, MI" Website="https://www.miexpresscare.com/"
-          class="scale-90" />
+        <SponsorComponent Image="/images/sponsors/proto-connect.png" SponsorName="ProtoConnect LLC" HasAddress
+          HasPhoneNumber HasEmail HasWebsite Address="220 N Fifth Ave, Ann Arbor, MI" PhoneNumber="(734)-619-0737"
+          Email="bcasey@protoconnect.com" Website="http://protoconnect.com/" class="scale-90" />
+        <SponsorComponent Image="/images/sponsors/kirshner-chiro.png" SponsorName="Kirshner Chiropractic" HasAddress
+          HasPhoneNumber HasEmail HasWebsite Address="1412 Ecorse Rd, Ypsilanti, MI" PhoneNumber="(734)-482-7700"
+          Email="kirshnerchiropractic@gmail.com" Website="https://www.kirshnerchiropractic.com/" class="scale-90" />
+        <SponsorComponent Image="/images/sponsors/miexpress.png" SponsorName="MI Express" HasAddress HasWebsite
+          Address="44237 Michigan Ave, Canton, MI" Website="https://www.miexpresscare.com/" class="scale-90" />
       </div>
     </div>
   </div>
