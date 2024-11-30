@@ -10,7 +10,7 @@
 npm install
 ```
 
-### Run Development Server (must build first due to static assets)
+## Run Development Server (must build first due to static assets)
 
 ```sh
 npm run build
