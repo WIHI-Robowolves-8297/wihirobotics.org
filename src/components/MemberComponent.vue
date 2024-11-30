@@ -54,6 +54,19 @@ export default {
   position: relative;
   margin-top: 2px;
   margin-bottom: 5px;
+  text-wrap: nowrap;
+  overflow: hidden;
+}
+
+.member .text p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #ADB5BD;
+  overflow: scroll;
+  scrollbar-width: none;
+  padding: 0;
+  margin-top: 5px;
+  height: 130px;
 }
 
 .member img {
@@ -69,15 +82,5 @@ export default {
 br {
   border: #34363B 1px solid;
   width: 100%;
-}
-
-.member .text p {
-  font-size: 18px;
-  font-weight: 300;
-  color: #ADB5BD;
-  overflow-y: scroll;
-  scrollbar-width: none;
-  margin-top: 5px;
-  height: 130px;
 }
 </style>
