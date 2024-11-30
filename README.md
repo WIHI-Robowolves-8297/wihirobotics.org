@@ -16,10 +16,11 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Run Development Server (must build first due to static assets)
 
 ```sh
-npm run dev
+npm run build
+npm run preview
 ```
 
 ### Compile and Minify for Production
