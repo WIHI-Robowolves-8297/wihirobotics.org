@@ -6,7 +6,7 @@ import TableComponent from "@/components/TableComponent.vue";
 <template>
   <div id="app">
     <JumbotronComponent Title="Our Mission" Description="Why our club exists, what we do, and how we can do it better."
-      HasButton Button="Support Our Mission" Link="/robo-site-testing/sponsorship" />
+      HasButton Button="Support Our Mission" Link="/wihirobotics.org/sponsorship" />
 
     <div class="mission">
       <TableComponent RowCount="1" ColumnCount="1" Title="Goals & Beliefs"
