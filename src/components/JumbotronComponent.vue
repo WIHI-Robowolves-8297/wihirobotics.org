@@ -1,5 +1,4 @@
 <script>
-
 export default {
   name: "JumbotronComponent",
   props: {
@@ -12,7 +11,6 @@ export default {
     Link: String
   }
 };
-
 </script>
 
 <template>
@@ -23,6 +21,7 @@ export default {
     <button v-if="HasButton" @click="$router.push(Link)">{{ Button }}</button>
   </div>
 </template>
+
 
 <style scoped>
 .jumbotron {
