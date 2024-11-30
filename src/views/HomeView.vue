@@ -7,7 +7,8 @@ import SponsorComponent from '@/components/SponsorComponent.vue';
   <div id="app">
     <JumbotronComponent Title="Team 8297 the WIHI Robowolves"
       Description="We're the Washtenaw International High School club which designs, builds, and programs a robot to compete in the FIRST Robotics Competition."
-      HasImage Image="/src/assets/images/teampicture.jpg" HasButton Button="Our Mission" Link="/mission" />
+      HasImage Image="/robo-site-testing/src/assets/images/teampicture.jpg" HasButton Button="Our Mission"
+      Link="/mission" />
 
     <div class="home">
       <h1>FRC 2024 - 2025 Competition</h1>
