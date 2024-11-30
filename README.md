@@ -1,4 +1,4 @@
-# robo-site
+# wihirobotics.org
 
 ## Recommended IDE Setup
 
