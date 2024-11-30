@@ -6,7 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/robo-site-testing/',
+  base: '/wihirobotics.org/',
   plugins: [
     vue(),
     vueDevTools(),
