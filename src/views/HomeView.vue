@@ -19,9 +19,9 @@ import SponsorComponent from '@/components/SponsorComponent.vue';
 
       <div class="sponsors">
         <SponsorComponent Image="/images/sponsors/dtm.png" SponsorName="DTM Remodeling LLC" OwnerName="Ron Towler"
-          HasOwnerName="true" HasPhoneNumber="true" PhoneNumber="(734) 323-9460" />
+          HasOwnerName="true" HasPhoneNumber="true" PhoneNumber="(734)-323-9460" />
         <SponsorComponent Image="/images/sponsors/gator-pkg.png" SponsorName="Gator Packaging Inc." HasAddress
-          HasPhoneNumber HasEmail HasWebsite Address="2800 Zeeb Rd, Dexter, MI" PhoneNumber="(734) 323-9460"
+          HasPhoneNumber HasEmail HasWebsite Address="2800 Zeeb Rd, Dexter, MI" PhoneNumber="(734)-222-8265"
           Email="gatorpkg@att.net" Website="https://gatorpkg.wixsite.com/gatorpackaging" class="scale-70" />
         <SponsorComponent Image="/images/sponsors/proto-connect.png" SponsorName="ProtoConnect LLC" HasAddress
           HasPhoneNumber HasEmail HasWebsite Address="220 N Fifth Ave, Ann Arbor, MI" PhoneNumber="(734)-619-0737"
