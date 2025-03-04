@@ -23,14 +23,6 @@ import SponsorComponent from '@/components/SponsorComponent.vue';
         <SponsorComponent Image="/images/sponsors/gator-pkg.png" SponsorName="Gator Packaging Inc." HasAddress
           HasPhoneNumber HasEmail HasWebsite Address="2800 Zeeb Rd, Dexter, MI" PhoneNumber="(734)-222-8265"
           Email="gatorpkg@att.net" Website="https://gatorpkg.wixsite.com/gatorpackaging" class="scale-70" />
-        <SponsorComponent Image="/images/sponsors/proto-connect.png" SponsorName="ProtoConnect LLC" HasAddress
-          HasPhoneNumber HasEmail HasWebsite Address="220 N Fifth Ave, Ann Arbor, MI" PhoneNumber="(734)-619-0737"
-          Email="bcasey@protoconnect.com" Website="http://protoconnect.com/" class="scale-90" />
-        <SponsorComponent Image="/images/sponsors/kirshner-chiro.png" SponsorName="Kirshner Chiropractic" HasAddress
-          HasPhoneNumber HasEmail HasWebsite Address="1412 Ecorse Rd, Ypsilanti, MI" PhoneNumber="(734)-482-7700"
-          Email="kirshnerchiropractic@gmail.com" Website="https://www.kirshnerchiropractic.com/" class="scale-90" />
-        <SponsorComponent Image="/images/sponsors/miexpress.png" SponsorName="MI Express" HasAddress HasWebsite
-          Address="44237 Michigan Ave, Canton, MI" Website="https://www.miexpresscare.com/" class="scale-90" />
       </div>
     </div>
   </div>
