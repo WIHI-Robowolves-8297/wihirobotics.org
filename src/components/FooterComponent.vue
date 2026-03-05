@@ -21,10 +21,10 @@ export default {
 
 <style scoped>
 .footer {
-  position: relative;
-  top: calc(100px);
+  position: fixed;
+  top: calc(100vh - 76px);
   left: 0;
-  width: 100vw;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
