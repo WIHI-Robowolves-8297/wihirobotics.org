@@ -25,8 +25,6 @@ import SponsorComponent from '@/components/SponsorComponent.vue';
       <h2>Silver Tier ($500 - $999)</h2>
       <hr>
       <div class="tier">
-        <SponsorComponent Image="/images/sponsors/dtm.png" SponsorName="DTM Remodeling LLC" OwnerName="Ron Towler"
-          HasOwnerName="true" HasPhoneNumber="true" PhoneNumber="(734) 323-9460" />
         <SponsorComponent Image="/images/sponsors/gator-pkg.png" SponsorName="Gator Packaging Inc." HasAddress
           HasPhoneNumber HasEmail HasWebsite Address="2800 Zeeb Rd, Dexter, MI" PhoneNumber="(734)-222-8265"
           Email="gatorpkg@att.net" Website="https://gatorpkg.wixsite.com/gatorpackaging" class="scale-70" />
@@ -39,13 +37,13 @@ import SponsorComponent from '@/components/SponsorComponent.vue';
       <h2>Individual Donors</h2>
       <hr>
       <p class="individual-donors">
-        The Chapmans, The Dadeys, The Szarazs
+        First Last
       </p>
     </div>
   </div>
 </template>
 
-<style>
+<style scoped>
 .tiers {
   width: 95%;
 }
@@ -61,7 +59,6 @@ import SponsorComponent from '@/components/SponsorComponent.vue';
 .tiers h2 {
   font-size: 28px;
   font-weight: 400;
-  padding-left: 15px;
 }
 
 .tiers hr,
@@ -74,7 +71,6 @@ br {
   margin-top: 10px;
   font-size: 18px;
   font-weight: 300;
-  padding-left: 15px;
 }
 
 .scale-100 img {

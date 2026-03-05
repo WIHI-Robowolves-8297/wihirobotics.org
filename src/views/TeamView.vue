@@ -1,36 +1,27 @@
 <script setup>
-import MemberComponent from '@/components/MemberComponent.vue';
-import JumbotronComponent from '@/components/JumbotronComponent.vue';
+import JumbotronComponent from '@/components/JumbotronComponent.vue'
+import TableComponent from '@/components/TableComponent.vue'
 </script>
 
 <template>
   <div id="app">
+    <JumbotronComponent Title="Our Team" Description="Meet the members of Team 8297, the WIHI Robowolves!" />
 
-    <JumbotronComponent Title="Our Team" Description="The Students and Mentors that make up the Robotics Team." />
+    <div class="about-us">
+      <TableComponent RowCount="1" ColumnCount="1" Title="About Us"
+        Text="We are the Washtenaw International High School Robowolves, a registered FIRST Robotics team (#8297). Founded in the 2021-2022 season, we have served to impart STEM knowledge to the passionate kids who make up our team and to give them an outlet to showcase their creativity and engineering skills, as well as other skills like marketing and artistic design." />
 
-    <div class="team">
-      <MemberComponent Name="Carrie Dadey" Role="Coach" Image="/images/user-solid.svg" Description=""
-        class="scale-60" />
-      <MemberComponent Name="Tristan Chapman" Role="Team Capitan" Image="/images/people/tristan-chapman.jpg"
-        Description="" class="scale-60" />
-      <MemberComponent Name="Dilansh Tiwari" Role="E-Board" Image="/images/people/dilansh-tiwari.jpg"
-        Description="Dilansh is one of the many significant assets of the WIHI RoboWolves. He is dedicated to seeing his team's success and is a build team member. He also takes part in other extracurriculars like cricket and Student Government."
-        class="scale-60" />
-      <MemberComponent Name="Haashir Ahmed" Role="E-Board" Image="/images/people/haashir-ahmed.jpg"
-        Description="Haashir is a diligent hard-worker, dedicated to inspiring his fellow members to success. With experience in programming and robotics competitions, Haashir uses his knowledge and leadership to guide the team to victory."
-        class="scale-60" />
-      <MemberComponent Name="Alexa Jacob" Role="E-Board" Image="/images/people/alexa-jacob.jpg"
-        Description="My name's Alexa Jacob and a sophomore in high school. I'm interested in robotics cause I like to discover and understand new technology! I work on the business side of our team off season and mechanical building in season."
-        class="scale-60" />
-      <MemberComponent Name="Aydin Akhoon" Role="E-Board" Image="/images/people/aydin-akhoon.jpg"
-        Description="⁤Aydin is a proactive and dedicated individual who strives for excellence in every endeavor. ⁤⁤As a key member of the WIHI Robowolves leadership team, his passion for science fuels his commitment to applying research, engineering, and teamwork skills, driving success for him and his team."
-        class="scale-60" />
+      <TableComponent RowCount="1" ColumnCount="1" Title="Our Mission"
+        Text="Our mission is to foster STEM skills in our members while providing a space for them to display their creativity and engineering capabilities. We have been succeeding in this since the inception of our program, as we have passed down knowledge for three years as of 2026." />
+
+      <TableComponent RowCount="2" ColumnCount="1" Title="Our History"
+        Text="After starting our team in the fall of 2022, we’ve gone to Berrien Springs, Kentwood, Jackson, and more locations for our competitions. While we originally had a small roster of around 5-10 members, we have expanded over the last few years into a roster of 35 for the 2026 REBUILT competition season.; In the REEFSCAPE competition during our 2025 season, we earned the Rising All-Stars Award for upcoming teams. This is the culmination of hours upon hours of our team studying and using their creativity to make a spectacular final product in spite of funding issues during that year. " />
     </div>
   </div>
 </template>
 
 <style>
-.team {
+.about-us {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

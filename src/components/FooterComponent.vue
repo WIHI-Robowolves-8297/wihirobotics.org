@@ -21,10 +21,10 @@ export default {
 
 <style scoped>
 .footer {
-  position: fixed;
-  top: calc(100vh - 76px);
+  position: relative;
+  top: calc(100px);
   left: 0;
-  width: 100%;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -42,7 +42,8 @@ export default {
   position: relative;
   font-size: 1.5rem;
   font-weight: bold;
-  color: #fff;;
+  color: #fff;
+  ;
 }
 
 .logo svg {

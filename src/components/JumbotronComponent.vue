@@ -55,6 +55,7 @@ export default {
   font-size: 24px;
   font-weight: 200;
   text-align: center;
+  line-break: auto;
 }
 
 .jumbotron img {

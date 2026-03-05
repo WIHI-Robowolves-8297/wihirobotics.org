@@ -57,12 +57,11 @@ export default {
       <div class="dropdown" @click="toggleAbout">
         <router-link to="">About</router-link>
         <div v-show="isAboutOpen" class="dropdown-content" @mouseleave="isAboutOpen = false">
-          <router-link to="/team">Team</router-link>
+          <router-link to="/about-us">About Us</router-link>
           <router-link to="/robot">Robot</router-link>
           <router-link to="/gallery">Gallery</router-link>
           <router-link to="/values">Values</router-link>
           <router-link to="/competition">Competition</router-link>
-          <router-link to="/mission">Mission</router-link>
         </div>
       </div>
       <div class="dropdown" @click="toggleSponsorship">

@@ -82,7 +82,6 @@ br {
   margin-top: -5px;
   font-size: 18px;
   font-weight: 300;
-  padding-left: 15px;
   color: #418bd4;
   text-decoration: none;
 }
